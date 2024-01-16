@@ -1,13 +1,8 @@
 import React, { useState } from "react";
 
-
-//create your first component
-
 const Light = () => {
 
     const [color, setColor] = useState("red");
-    
-
     
     return (
         <div className="traficLight text-center">
